@@ -2,10 +2,10 @@
 
 ## Developer Details
 
-**Name:** Mohammed Anasuddin
-**Email:** connect.anasuddin@gmail.com  
-**GitHub:** https://github.com//MohammedAnasuddin
-**LinkedIn:** https://www.linkedin.com/in/connectanasuddin
+**Name:** Mohammed Anasuddin <br>
+**Email:** connect.anasuddin@gmail.com  <br>
+**GitHub:** https://github.com//MohammedAnasuddin <br>
+**LinkedIn:** https://www.linkedin.com/in/connectanasuddin <br>
 
 ---
 
@@ -46,7 +46,6 @@ Special attention was given to match the design specifications precisely. Some o
 - React
 - React Router
 - CSS
-- Local Storage
 - Vite
 
 ---
