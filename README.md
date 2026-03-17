@@ -56,4 +56,4 @@ The final implementation closely follows the Adobe XD design while maintaining *
 
 ---
 
-## Live Link
+## Live Link : https://educase-assignment-anas.netlify.app/
