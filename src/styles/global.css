@@ -41,16 +41,6 @@ body {
   margin-bottom: 24px;
 }
 
-/* inputs */
-.input {
-  width: 100%;
-  padding: 12px;
-  border-radius: 6px;
-  border: 1px solid #ddd;
-  margin-bottom: 16px;
-  font-size: 14px;
-}
-
 .btn-primary {
   width: 100%;
   height: 46px;
@@ -108,13 +98,63 @@ body {
   margin-bottom: 24px;
 }
 
-.input-label {
-  font-size: 13px;
-  font-weight: 500;
-  color: #6c25ff;
-}
-
 .button-text {
   font-size: 16px;
   font-weight: 500;
+}
+
+.form-group {
+  position: relative;
+  margin-top: 22px;
+}
+
+.input-field {
+  width: 100%;
+  height: 40px;
+  border: 1px solid #cbcbcb;
+  border-radius: 6px;
+  padding: 12px 12px 8px 12px;
+
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  color: #1d2226;
+
+  background: transparent;
+}
+
+.input-label {
+  position: absolute;
+  top: -8px;
+  left: 12px;
+
+  font-family: "Rubik", sans-serif;
+  font-size: 13px;
+  color: #6c25ff;
+
+  background: #f7f8f9;
+  padding: 0 4px;
+}
+
+.required {
+  color: #dd4a3d;
+}
+
+.input-field::placeholder {
+  color: #1d2226;
+  opacity: 0.7;
+}
+
+.form-question {
+  font-size: 13px;
+  margin-top: 20px;
+}
+
+.radio-group {
+  display: flex;
+  gap: 22px;
+  margin-top: 10px;
+}
+
+.radio-group input {
+  accent-color: #6c25ff;
 }
