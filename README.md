@@ -1,18 +1,60 @@
-# React + Vite
+# PopX React UI Assignment By Mohammed Anasuddin
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Developer Details
 
-Currently, two official plugins are available:
+**Name:** Mohammed Anasuddin
+**Email:** connect.anasuddin@gmail.com  
+**GitHub:** https://github.com//MohammedAnasuddin
+**LinkedIn:** https://www.linkedin.com/in/connectanasuddin
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## Overview
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+This project is a **React implementation of the PopX mobile interface** based on the provided Adobe XD design. The goal was to replicate the UI as **accurately as possible while keeping the code clean and maintainable**.
 
-Note: This will impact Vite dev & build performances.
+The application includes four screens: **Welcome, Create Account, Login, and Account Settings**, with navigation handled using **React Router**.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Focus on Design Accuracy
+
+Special attention was given to match the design specifications precisely. Some of the key details implemented include:
+
+- Mobile UI frame **(375 × 812)** centered on the webpage.
+- Accurate **spacing, padding, and alignment** based on the design.
+- **Floating input labels** that sit on the input border exactly like the design.
+- Correct **button styles, states, and colors**, including disabled login button behavior.
+- Header with **shadow effect** matching the design specification.
+- **Dashed separators** placed exactly as in the design.
+- Profile avatar with **camera icon overlay** positioned correctly.
+- Typography implemented using **Rubik font with correct sizes and weights**.
+- Consistent **color palette and border radius values** from the design system.
+
+---
+
+## Functionality
+
+- **Signup form** stores user data in `localStorage`.
+- **Login button remains disabled** until inputs are filled.
+- **Account Settings page retrieves stored user data** and falls back to default values if none exist.
+
+---
+
+## Tech Stack
+
+- React
+- React Router
+- CSS
+- Local Storage
+- Vite
+
+---
+
+## Result
+
+The final implementation closely follows the Adobe XD design while maintaining **structured components, reusable styles, and clean code practices**.
+
+---
+
+## Live Link
